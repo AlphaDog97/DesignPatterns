@@ -3,6 +3,7 @@
     public class RMBAccount : Subject
     {
         private double amount;
+
         public double Amount
         {
             get { return amount; }

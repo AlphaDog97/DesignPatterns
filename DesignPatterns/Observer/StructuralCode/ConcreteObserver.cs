@@ -6,7 +6,8 @@
         private string observerState;
         private ConcreteSubject subject;
 
-        public ConcreteObserver(ConcreteSubject subject, string name)
+        public ConcreteObserver(
+            ConcreteSubject subject, string name)
         {
             this.subject = subject;
             this.name = name;

@@ -2,23 +2,23 @@
 {
     public abstract class Subject
     {
-        private List<Observer> observers = new List<Observer>();
+        List<Observer> observers = new List<Observer>();
 
         public void Attach(Observer observer)
         {
             observers.Add(observer);
         }
 
-        public void Detach(Observer observer)
+        public void Detech(Observer observer)
         {
             observers.Remove(observer);
         }
 
         public void Notify()
         {
-            foreach (Observer o in observers)
+            foreach (var observer in observers)
             {
-                o.Update();
+                observer.Update();
             }
         }
     }

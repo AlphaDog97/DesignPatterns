@@ -1,11 +1,13 @@
 ﻿using StructuralCode;
 
-// Configure Observer pattern
-ConcreteSubject s = new ConcreteSubject();
-s.Attach(new ConcreteObserver(s, "X"));
-s.Attach(new ConcreteObserver(s, "Y"));
-s.Attach(new ConcreteObserver(s, "Z"));
+ConcreteSubject concreteSubject = new ConcreteSubject();
 
-// Change subject and notify observers
-s.SubjectState = "ABC";
-s.Notify();
+concreteSubject.SubjectState = "initial state";
+
+concreteSubject.Attach(new ConcreteObserver(concreteSubject, "X"));
+concreteSubject.Attach(new ConcreteObserver(concreteSubject, "Y"));
+concreteSubject.Attach(new ConcreteObserver(concreteSubject, "Z"));
+
+concreteSubject.SubjectState = "updated state";
+
+Console.ReadKey();

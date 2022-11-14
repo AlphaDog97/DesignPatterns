@@ -7,7 +7,14 @@
         public string SubjectState
         {
             get { return subjectState; }
-            set { subjectState = value; }
+            set 
+            {
+                if (subjectState != value) 
+                {
+                    subjectState = value;
+                    Notify();
+                }
+            }
         }
     }
 }

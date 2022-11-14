@@ -25,3 +25,5 @@ account.Attach(new CurrencyObserver(account, EURCurrency));
 account.Attach(new CurrencyObserver(account, RUBCurrency));
 
 account.Amount = 100;
+
+Console.ReadKey();
