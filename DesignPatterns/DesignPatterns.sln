@@ -5,15 +5,21 @@ VisualStudioVersion = 17.4.33020.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Observer", "Observer", "{773A94FC-AC8D-445C-8C79-6B3A840DAB4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "Observer\StructuralCode\StructuralCode.csproj", "{25DE2CBA-9A81-4351-BD48-10A6206779D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "Observer\StructuralCode\StructuralCode.csproj", "{25DE2CBA-9A81-4351-BD48-10A6206779D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Observer\Example\Example.csproj", "{602F4714-D363-483F-9AA5-7B9E8D00D871}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Observer\Example\Example.csproj", "{602F4714-D363-483F-9AA5-7B9E8D00D871}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decorator", "Decorator", "{E9D97F95-B973-4515-AE8C-71034A5176AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "Decorator\StructuralCode\StructuralCode.csproj", "{8511B63C-5335-45D8-A1EA-359AF9492CC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructuralCode", "Decorator\StructuralCode\StructuralCode.csproj", "{8511B63C-5335-45D8-A1EA-359AF9492CC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "Decorator\Example\Example.csproj", "{44710604-CEB4-4C7C-A507-ABD0FB504FCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example", "Decorator\Example\Example.csproj", "{44710604-CEB4-4C7C-A507-ABD0FB504FCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{C531A49E-FABF-42B3-9A27-24197B75D308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructuralCode", "FactoryMethod\StructuralCode\StructuralCode.csproj", "{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example", "FactoryMethod\Example\Example.csproj", "{952D2EDC-4A66-4287-9C2E-929145677E13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{44710604-CEB4-4C7C-A507-ABD0FB504FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{44710604-CEB4-4C7C-A507-ABD0FB504FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{44710604-CEB4-4C7C-A507-ABD0FB504FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{952D2EDC-4A66-4287-9C2E-929145677E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952D2EDC-4A66-4287-9C2E-929145677E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952D2EDC-4A66-4287-9C2E-929145677E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952D2EDC-4A66-4287-9C2E-929145677E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +60,8 @@ Global
 		{602F4714-D363-483F-9AA5-7B9E8D00D871} = {773A94FC-AC8D-445C-8C79-6B3A840DAB4D}
 		{8511B63C-5335-45D8-A1EA-359AF9492CC7} = {E9D97F95-B973-4515-AE8C-71034A5176AF}
 		{44710604-CEB4-4C7C-A507-ABD0FB504FCE} = {E9D97F95-B973-4515-AE8C-71034A5176AF}
+		{7A2D4C31-17EC-4631-B1A4-6C0C0BEBDE3B} = {C531A49E-FABF-42B3-9A27-24197B75D308}
+		{952D2EDC-4A66-4287-9C2E-929145677E13} = {C531A49E-FABF-42B3-9A27-24197B75D308}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E6C755E2-FBDB-489D-80F2-2F3455EF273F}
